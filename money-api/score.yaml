@@ -27,7 +27,6 @@ containers:
       DB_HOST: ${resources.db.host}
       DB_PORT: ${resources.db.port}
       DB_TYPE: postgres
-      STORAGE_BUCKET: ${resources.storage.bucket}
 
 resources:
   db:
